@@ -1,0 +1,27 @@
+{
+  "name": "hng12-backend-task",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cod-emminex/hng12-backend-task.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cod-emminex/hng12-backend-task/issues"
+  },
+  "homepage": "https://github.com/cod-emminex/hng12-backend-task#readme",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "vite": "^6.0.11"
+  }
+}

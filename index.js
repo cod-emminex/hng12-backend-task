@@ -7,7 +7,7 @@ const PORT = process.env.PORT || 3001;
 app.use(cors());
 
 
-app.get("/api", (req, res) => {
+app.get("/", (req, res) => {
   const response = {
     email: "emminexy@yahoo.com",
     current_datetime: new Date().toISOString(),

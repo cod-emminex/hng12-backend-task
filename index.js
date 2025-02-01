@@ -6,7 +6,8 @@ const PORT = process.env.PORT || 3001;
 
 app.use(cors());
 
-app.get("/", (req, res) => {
+
+app.get("/api", (req, res) => {
   const response = {
     email: "emminexy@yahoo.com",
     current_datetime: new Date().toISOString(),
@@ -14,6 +15,7 @@ app.get("/", (req, res) => {
   };
   res.status(200).json(response);
 });
+
 
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);

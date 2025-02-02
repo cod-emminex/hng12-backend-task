@@ -18,12 +18,11 @@ This project is a simple public API that returns basic information in JSON forma
    ```
 2. Install dependencies:
    ```
-npm install
-```
+   npm install
+   ```
 
 Run the application:
 ```
-bash
 npm run dev
 ```
 

@@ -44,7 +44,8 @@ JSON Response
 JSON
 ```
 
-Example Usage
+Example Usage:
+
 You can test the API endpoint using a tool like curl or Postman.
 
 Using curl:

@@ -20,14 +20,15 @@ This project is a simple public API that returns basic information in JSON forma
    ```
    npm install
    ```
+   Run the application:
+   ```
+   npm run dev
+   ```
 
-Run the application:
-```
-npm run dev
-```
+## API Documentation
 
-API Documentation
 Endpoint
+
 GET /
 
 Description
@@ -42,11 +43,14 @@ JSON
 Example Usage
 You can test the API endpoint using a tool like curl or Postman.
 
-Using curl
+Using curl:
+```
 bash
 curl -X GET https://hng12-backend-task.vercel.app/
+```
+
 Deployment
 The API is deployed and publicly accessible at: https://hng12-backend-task.vercel.app/
 
 Backlink
-For more information on hiring Node.js developers, visit HNG Node.js Developers.
+For more information on hiring Node.js developers, visit HNG Node.js Developers https://hng.tech/hire/nodejs-developers

@@ -27,30 +27,35 @@ This project is a simple public API that returns basic information in JSON forma
 
 ## API Documentation
 
-Endpoint
-
+Endpoint:
+```
 GET /
+```
 
-Description
+Description:
+
 This endpoint returns basic information in JSON format, including the registered email address, the current datetime as an ISO 8601 formatted timestamp, and the GitHub URL of the project's codebase.
 
-Response Format
+Response Format:
+```
 Status Code: 200 OK
 Content-Type: application/json
 JSON Response
 JSON
+```
 
 Example Usage
 You can test the API endpoint using a tool like curl or Postman.
 
 Using curl:
 ```
-bash
 curl -X GET https://hng12-backend-task.vercel.app/
 ```
 
-Deployment
+## Deployment
+
 The API is deployed and publicly accessible at: https://hng12-backend-task.vercel.app/
 
-Backlink
-For more information on hiring Node.js developers, visit HNG Node.js Developers https://hng.tech/hire/nodejs-developers
+## Backlink
+
+For more information on hiring Node.js developers, visit HNG Node.js Developers: https://hng.tech/hire/nodejs-developers

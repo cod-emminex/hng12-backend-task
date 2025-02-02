@@ -13,13 +13,11 @@ This project is a simple public API that returns basic information in JSON forma
 
 1. Clone the repository:
    ```
-   bash
    git clone https://github.com/cod-emminex/hng12-backend-task.git
    cd hng12-backend-task
    ```
 2. Install dependencies:
    ```
-bash
 npm install
 ```
 
